@@ -1,0 +1,4 @@
+Data science extracts knowledge from data.
+Machine learning helps computers predict outcomes.
+Effective data science needs domain expertise.
+Programming skills and statistical knowledge required.
