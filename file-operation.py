@@ -1,24 +1,24 @@
 '''
     This program find the highest occurance word from a file
 '''
-# word_state = {}
+word_state = {}
 
-# with open('poem.txt', 'r') as file:
-#     for line in file:
-#         for word in line.split():
-#             if word in word_state:
-#                 word_state[word] += 1
-#             else:
-#                 word_state[word] = 1
+with open('poem.txt', 'r') as file:
+    for line in file:
+        for word in line.split():
+            if word in word_state:
+                word_state[word] += 1
+            else:
+                word_state[word] = 1
 
-# for word, count in word_state.items():
-#     if count > 2:
-#         print(f"{word} appears {count} times")
+for word, count in word_state.items():
+    if count > 2:
+        print(f"{word} appears {count} times")
 
-# max_occurance = max(word_state.values())
-# for word in word_state:
-#     if word_state[word] == max_occurance:
-#         print(f"'{word}' appears {max_occurance} times")
+max_occurance = max(word_state.values())
+for word in word_state:
+    if word_state[word] == max_occurance:
+        print(f"'{word}' appears {max_occurance} times")
 
 '''
     This program calculate financial matrics from stock value
