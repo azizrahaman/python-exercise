@@ -39,4 +39,3 @@ with open('stocks.csv', 'r') as f, open('stocks_output.csv', 'w') as output:
     output.write('End Conpany, End PE Ratio, End PB Ratio\n')
 with open('stocks_output.csv', 'r') as f:
     print(f.read())
-
